@@ -1,0 +1,19 @@
+body {
+    color: $gray-dark;
+    font-family: 'Spartan', sans-serif;
+    font-size: 0.9375rem;
+    font-weight: 400;
+}
+
+p {
+    line-height: 1.5rem;
+}
+
+h2, h3  {
+    font-size: 0.9375rem;
+}
+
+.info {
+    text-align: center;
+    color: $primary-magenta;
+}
