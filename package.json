@@ -1,0 +1,22 @@
+{
+  "name": "social-proof-section-master",
+  "version": "1.0.0",
+  "description": "1",
+  "main": "index.js",
+  "scripts": {
+    "compile_sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rraschbaum/social-proof-section-master.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rraschbaum/social-proof-section-master/issues"
+  },
+  "homepage": "https://github.com/rraschbaum/social-proof-section-master#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
