@@ -1,0 +1,19 @@
+@import './variables';
+
+.review {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+
+    &__item {
+        background: $gray-light;
+        margin-bottom: 1rem;
+        padding: 2rem;
+        border-radius: .5rem;
+        text-align: center;
+        width: 100%;
+        max-width: 300px;
+    }
+}
