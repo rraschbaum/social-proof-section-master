@@ -4,14 +4,60 @@
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
+    width: 100%;
+    margin-bottom: 3rem;
 
     &__item {
         background: $gray-light;
-        margin-bottom: 1rem;
-        padding: 2rem;
+        padding: 1rem;
         border-radius: .5rem;
         text-align: center;
         width: 100%;
-        max-width: 300px;
+    }
+
+    &__item:not(:last-child) {
+        margin-bottom: 1rem;
+    }
+
+    &__stars {
+        margin-bottom: 1rem;
+    }
+
+    &__copy {
+        color: $primary-magenta;
+        font-size: 0.8125rem;
+    }
+}
+
+@media (min-width: $breakpoint-desktop) {
+    .review {
+        
+        width: 50%;
+        margin-bottom: 0;
+
+        &__item {
+            display: flex;
+            align-items: center;
+            max-width: 445px;
+            padding: rem 2rem;
+        }
+
+        &__item:first-of-type {
+            align-self: flex-start;
+        }
+
+        &__item:nth-of-type(2) {
+            align-self: center;
+        }
+
+        &__item:last-of-type {
+            align-self: flex-end;
+        }
+
+
+        &__stars {
+            margin-bottom: 0;
+            margin-right: 2rem;
+        }
     }
 }

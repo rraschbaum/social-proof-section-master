@@ -7,13 +7,9 @@ body {
 
 p {
     line-height: 1.5rem;
+    color: $gray-dark;
 }
 
 h2, h3  {
     font-size: 0.9375rem;
-}
-
-.info {
-    text-align: center;
-    color: $primary-magenta;
 }
