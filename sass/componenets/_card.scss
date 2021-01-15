@@ -9,6 +9,7 @@
         margin-bottom: 1rem;
         padding: 2rem;
         border-radius: .5rem;
+        font-size: 0.8125rem;
     }
     &__user {
         display: flex;
@@ -39,7 +40,6 @@
     }
     &__copy {
         color: $gray-light;
-        font-size: 0.8125rem;
     }
 
 }
